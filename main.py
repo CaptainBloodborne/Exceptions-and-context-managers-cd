@@ -1,2 +1,2 @@
-class cd:
+class Cd:
     pass

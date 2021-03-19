@@ -1,9 +1,9 @@
 ### Context managers cd
 ***
-Create a context manager `cd` which changes the current directory to pointed one.
+Create a context manager `Cd` which changes the current directory to pointed one.
 For example:
 ```python
-with cd('/home')
+with Cd('/home')
 ```
 When entering the context you need to save the previous directory and when you exit you need to restore it.
 During context manager initialization check that the passed directory is a directory and exists.
