@@ -5,7 +5,7 @@ class Cd:
     current_dir = os.getcwd()
 
     def __init__(self, path):
-        if not os.path.isdir(path) or os.path.exists(path):
+        if not os.path.isdir(path) or not os.path.exists(path):
             raise ValueError
         self.path = path
 
