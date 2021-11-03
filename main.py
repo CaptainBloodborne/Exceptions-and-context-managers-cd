@@ -15,3 +15,4 @@ class Cd:
 
     def __exit__(self, exc_type, exc_val, exc_tb):
         print(f"Working directory is changed to {self.current_dir}")
+        os.chdir(self.current_dir)
